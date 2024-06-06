@@ -1,0 +1,53 @@
+ 
+  .tablehead {
+    background-color: rgb(173, 189, 255);
+  }
+  
+  .table-head {
+    color: rgb(20, 8, 115);
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .tablebody {
+    background-color:rgb(187, 236, 236);
+    transition: all 0.5s ease-out;
+  }
+  
+  .tablebody:hover {
+    background-color: rgb(147, 215, 255);
+  }
+  
+  .rank {
+    font-weight: 700;
+  }
+  
+  .action-button {
+    background-color: rgba(20, 8, 115, 0.9);
+    color: white;
+    border-radius: 4px;
+    height: 30px;
+    width: 60px;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background-color: rgba(20, 8, 115, 1);
+  }
+  
+  .skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 37%, #f0f0f0 63%);
+    background-size: 2000px 100%;
+    animation: skeletonShimmer 1.5s infinite;
+  }
+  
+  @keyframes skeletonShimmer {
+    0% {
+      background-position: -1000px 0;
+    }
+    100% {
+      background-position: 1000px 0;
+    }
+  }
