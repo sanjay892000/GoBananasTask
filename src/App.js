@@ -48,7 +48,7 @@ const App = () => {
     return (
         <Container>
             <Typography className='typography' variant="h4" component="h1" gutterBottom >
-                Post List
+                GoBananas Task 
             </Typography>
             <SearchBar searchTerm={searchTerm} onSearchChange={setSearchTerm} />
             <DataList data={currentData} />
